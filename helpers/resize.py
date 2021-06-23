@@ -1,7 +1,6 @@
 import cv2
 import os
-def resize():
-    
+def resize():    
     path = input("Enter path of image directory")
     for root, subdir, files in os.walk(path):
         for file in files:
