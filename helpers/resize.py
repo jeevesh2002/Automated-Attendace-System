@@ -1,3 +1,5 @@
+# Use this for preprocessing data
+# Resizes all the images to 250x250 Grayscale
 import cv2
 import os
 def resize():    
